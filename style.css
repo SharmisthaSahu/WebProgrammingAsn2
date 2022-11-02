@@ -1,0 +1,37 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+header{
+    text-align: center;
+    padding: 3px;
+    background-color: chocolate;
+    color: white;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: chocolate;
+    color: white;
+  }
+p{
+    color: goldenrod;
+    font-family: verdana;
+    text-align: center ;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+tr:nth-child(even) {
+  background-color: orange;
+}
