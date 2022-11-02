@@ -1,0 +1,22 @@
+<h3>List of Books</h3>
+<table border="1">
+    <tr>
+        <td>ISBN</td>
+        <td>Covers</td>
+        <td>Title</td>
+        <td>Author</td>
+        <td>Inventory</td>
+        <td>Category</td>
+    </tr>
+    {{#each data}}
+    
+    <tr>
+        <td>{{this.ISBN}}</td>
+        <td><img src={{this.img}} alt="Covers" width="42" height="42" style="vertical-align:bottom"/></td>
+        <td>{{this.title}}</td>
+        <td>{{this.author}}</td>
+        <td>{{this.inventory}}</td>
+        <td>{{this.category}}</td>
+    </tr>
+{{/each}}
+</table>
